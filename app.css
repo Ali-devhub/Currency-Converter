@@ -87,7 +87,7 @@ form input {
 }
 
 .msg {
-    margin: 2rem 0 2rem o ;
+    margin: 2rem 0 2rem 0;
 
 }
 
@@ -97,4 +97,6 @@ form button {
     background-color: #af4d98;
     color: white;
     font-size: 1.2rem;
+
+    cursor: pointer;
 }
