@@ -7,7 +7,46 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input value="100" type="text">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>from</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/PK/flat/64.png">
+                        <select name="from">
+                            <option value="PKR">PKR</option>
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="AED">AED</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <p>to</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select name="to">
+                            <option value="PKR">PKR</option>
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="AED">AED</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">
+                IUSD = 285PKR
+            </div>
+            <button>Get Exchange Rate!</button>
+        </form>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
